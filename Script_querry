@@ -1,1 +1,23 @@
+USE Empresa
 
+-- 1 - Quantidade de faturamento geral
+
+-- SELECT SUM(Preco * Unidades) AS Faturamento FROM Produtos 
+
+-- 2 - Quantidade de pedidos geral
+
+-- SELECT COUNT(CodFun) FROM Pedidos
+
+-- 3 - Quantidade de clientes geral
+
+-- SELECT COUNT(CodCli) FROM Clientes
+
+-- 4 - Densidade de pedidos por Pais (Quantidade de Pedidos)
+
+-- SELECT DISTINCT COUNT(Pais) FROM Clientes
+
+-- 5 - Nome do Funcionario, faturamento gerado pelo funcionário e quantidade de pedidos atendidos por ele
+
+-- 6 - Consulta opcional, usem a curiosidade e criatividade de vocês!
+
+-- SELECT MAX(Preco) FROM Produtos
